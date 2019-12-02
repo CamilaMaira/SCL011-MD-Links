@@ -4,8 +4,6 @@
   "dependencies": {
     "eslint": "^6.7.1",
     "eslint-plugin-jest": "^23.0.4",
-    "filehound": "^1.17.3",
-    "markdown-link-extractor": "^1.2.2",
     "marked": "^0.7.0"
   }
 }
