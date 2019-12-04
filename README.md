@@ -21,4 +21,14 @@ MD-Links es una librería que permite extraer links de archivos en formato Markd
 
 **¡OJO!** *archivo.md* es el nombre del archivo que deseas analizar y verificar. 
 
-3. Al presionar **enter** en tu terminal se imprimirá una lista de todos los links encontrados dentro del archivo. Podrás encontrar el link, nombre del enlace y ruta del archivo *(href, text y file)* y junto con ello si este links es válido o no. 
+3. Al presionar **enter** en tu terminal se imprimirá una lista de todos los links encontrados dentro del archivo. Podrás encontrar el link de la url encontrada, el nombre del enlace y ruta del archivo *(href, text y file)* y junto con ello si este link es válido o no, aquí va un ejemplo de como se vería:
+
+> {
+>     href: 'https://pacolog.com/',
+>     text: 'Pacolog',
+>     file: '/Users//Desktop/.../readme.md'   } ] 
+>     OK
+
+**Siguiente iteración**
+
+Para la próxima iteración se planea agregar las opciones de `--validate` y `--stats` si bien la librería es capaz de entregar el estado de los links esto lo hace por default, no por elección del usuario. Por otro lado, --stats esta pensado para entregar estadisticas acerca de los links encontrados(cantidad total por archivo, número de links rotos y links activos, entre otros).
